@@ -18,16 +18,6 @@ interface ICars { // Interfaz para la clase
 
 // npm install & npm test
 
-async function fetchData(ApiUrl, options) {
-    const pepe = await (await fetch(ApiUrl , options)).json();
-    return pepe
-}
-
-function arrayCarsConstruct(options) {
-    
-    return options
-    
-}
 
 
 
